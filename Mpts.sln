@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mpts", "Mpts\Mpts.csproj", "{37F503C0-4BAB-4731-B544-9D8399CCCA89}"
 	ProjectSection(ProjectDependencies) = postProject
 		{9DB1901F-FA11-4FA8-8C82-8D211982BDEE} = {9DB1901F-FA11-4FA8-8C82-8D211982BDEE}
@@ -15,8 +17,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACVerify", "ACVerify\ACVeri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mpts.Library", "Mpts.Library\Mpts.Library.csproj", "{C16C1C8A-52D9-4E30-9EE6-2D9B3B214123}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MptsSetup", "MptsSetup\MptsSetup.vdproj", "{DFCD9029-551F-49DE-9A33-BC71EC1ECF02}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountLines", "CountLines\CountLines.csproj", "{9DB1901F-FA11-4FA8-8C82-8D211982BDEE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mpts-Shutdown", "Mpts-Shutdown\Mpts-Shutdown.csproj", "{07363320-027A-45C6-B4D7-11166B2517FB}"
@@ -29,36 +29,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{BCFE
 	EndProjectSection
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 9
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs02
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = ACVerify\\ACVerify.csproj
-		SccProjectName1 = ACVerify
-		SccLocalPath1 = ACVerify
-		SccProjectUniqueName2 = AInfo\\AInfo.csproj
-		SccProjectName2 = AInfo
-		SccLocalPath2 = AInfo
-		SccProjectUniqueName3 = Mpts\\Mpts.csproj
-		SccProjectName3 = Mpts
-		SccLocalPath3 = Mpts
-		SccProjectUniqueName4 = Mpts.Library\\Mpts.Library.csproj
-		SccProjectName4 = Mpts.Library
-		SccLocalPath4 = Mpts.Library
-		SccProjectUniqueName5 = MptsSetup\\MptsSetup.vdproj
-		SccProjectName5 = MptsSetup
-		SccLocalPath5 = MptsSetup
-		SccProjectUniqueName6 = CountLines\\CountLines.csproj
-		SccProjectName6 = CountLines
-		SccLocalPath6 = CountLines
-		SccProjectUniqueName7 = Mpts-Shutdown\\Mpts-Shutdown.csproj
-		SccProjectName7 = Mpts-Shutdown
-		SccLocalPath7 = Mpts-Shutdown
-		SccProjectUniqueName8 = Mpts.Contracts\\Mpts.Contracts.csproj
-		SccProjectName8 = Mpts.Contracts
-		SccLocalPath8 = Mpts.Contracts
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -108,12 +78,6 @@ Global
 		{C16C1C8A-52D9-4E30-9EE6-2D9B3B214123}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{C16C1C8A-52D9-4E30-9EE6-2D9B3B214123}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{C16C1C8A-52D9-4E30-9EE6-2D9B3B214123}.Release|x86.ActiveCfg = Release|Any CPU
-		{DFCD9029-551F-49DE-9A33-BC71EC1ECF02}.Debug|Any CPU.ActiveCfg = Debug
-		{DFCD9029-551F-49DE-9A33-BC71EC1ECF02}.Debug|Mixed Platforms.ActiveCfg = Debug
-		{DFCD9029-551F-49DE-9A33-BC71EC1ECF02}.Debug|x86.ActiveCfg = Debug
-		{DFCD9029-551F-49DE-9A33-BC71EC1ECF02}.Release|Any CPU.ActiveCfg = Release
-		{DFCD9029-551F-49DE-9A33-BC71EC1ECF02}.Release|Mixed Platforms.ActiveCfg = Release
-		{DFCD9029-551F-49DE-9A33-BC71EC1ECF02}.Release|x86.ActiveCfg = Release
 		{9DB1901F-FA11-4FA8-8C82-8D211982BDEE}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{9DB1901F-FA11-4FA8-8C82-8D211982BDEE}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
 		{9DB1901F-FA11-4FA8-8C82-8D211982BDEE}.Debug|Mixed Platforms.Build.0 = Debug|x86
